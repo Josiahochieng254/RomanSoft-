@@ -6,16 +6,9 @@
 
 html {
     scroll-behavior: smooth;
-    height:-webkit-fill-available;
+    
 }
-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    margin: 0 auto;
-    height: 100vh;
-    height: -webkit-fill-available;
-}
+
 
 /*Navbar */
 
@@ -81,8 +74,6 @@ body {
 
 .main {
     display: flex;
-    flex: 1;
-    overflow:scroll;
     flex-direction: column;
     /*border: 1px solid white;*/
     align-items: center;
